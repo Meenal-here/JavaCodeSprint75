@@ -3,8 +3,9 @@
 //time complexity O(nlogn) space complexity O(1)
 //sort both the strings and compare if they are same or not
 //brute force approach using character array and sorting
+import java.util.Arrays;
 class isAnagram {
-    public boolean isAnagram(String s, String t) {
+    public boolean isValidAnagram(String s, String t) {
     if(s.length()==t.length()){ //length of both the string must be same
       int n = t.length();
       int count=0;
